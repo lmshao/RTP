@@ -2,7 +2,7 @@
 *.o
 
 # Executables
-#RTPServer
+RTPServer
 
 # CLion
 cmake-build-debug/
