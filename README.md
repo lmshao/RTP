@@ -1,5 +1,7 @@
 # RTP
-Implementation of a RTP server that sends video stream (H.264/HEVC) using the Realtime Transfer Protocol (RTP).
+Implementation of a RTP server that sends video stream (H.264/HEVC) using the Real-time Transport Protocol(RTP) based on Linux/MacOS. 
+
+一个基于Linux/MacOS平台的可以发送携带H.264/HEVC媒体类型的RTP视频流的示例程序。
 
 ### Receive & Play Video as RTP Client
 
