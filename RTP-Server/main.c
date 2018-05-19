@@ -4,6 +4,7 @@
 
 #include <stdio.h>
 #include <string.h>
+#include <stdlib.h>
 #include "Utils.h"
 #include "RTPEnc.h"
 #include "Network.h"
@@ -36,6 +37,8 @@ int main() {
 
     initRTPMuxContext(&rtpMuxContext);
     rtpSendH264HEVC(&rtpMuxContext, &udpContext, stream, len);
+
+    free(stream);
 
     return 0;
 }
